@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=80"
@@ -19,12 +19,12 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
 
-      <div className=" z-10 text-center px-1 md:px-6 max-w-7xl mx-auto">
+      <div className=" z-10 text-center px-4 sm:px-6 max-w-7xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="font-serif text-5xl md:text-7xl text-white mb-6 leading-tight"
+          className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-6 leading-tight"
         >
           Elegant Interiors,
           <br />
@@ -34,7 +34,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed"
+          className="text-base sm:text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed"
         >
           Transforming spaces into works of art with a refined blend of luxury
           and minimalism.
@@ -69,7 +69,7 @@ export default function Hero() {
                 key={stat.label}
                 className="text-center py-6 bg-black/30 backdrop-blur-sm"
               >
-                <p className="font-serif text-3xl text-gold mb-1">
+                <p className="font-serif  text-2xl sm:text-3xl text-gold mb-1">
                   {stat.value}
                 </p>
                 <p className="text-xs text-white/70 tracking-wide">
