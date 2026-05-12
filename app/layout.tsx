@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Velora Interiors — Luxury Interior Design",
+  title: "Veylora Interiors — Luxury Interior Design",
   description:
     "Award-winning interior design studio specializing in luxury residential and commercial spaces. Timeless elegance, modern minimalism.",
 };

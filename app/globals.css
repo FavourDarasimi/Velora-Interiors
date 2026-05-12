@@ -14,3 +14,8 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
 }
+
+@keyframes pulse-grid {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}

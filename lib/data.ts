@@ -82,7 +82,7 @@ export const testimonials: Testimonial[] = [
     name: "Sarah Mitchell",
     role: "Homeowner, Chelsea",
     content:
-      "Velora transformed our apartment into a sanctuary. Every detail was considered with such care. We couldn't be happier.",
+      "Veylora transformed our apartment into a sanctuary. Every detail was considered with such care. We couldn't be happier.",
     avatar:
       "https://ui-avatars.com/api/?name=Sarah+Mitchell&background=C8A24A&color=fff&size=80",
   },
@@ -91,7 +91,7 @@ export const testimonials: Testimonial[] = [
     name: "James Cooper",
     role: "CEO, Cooper & Co.",
     content:
-      "Our office redesign by Velora increased employee satisfaction and productivity. A truly professional team.",
+      "Our office redesign by Veylora increased employee satisfaction and productivity. A truly professional team.",
     avatar:
       "https://ui-avatars.com/api/?name=James+Cooper&background=C8A24A&color=fff&size=80",
   },
@@ -100,7 +100,7 @@ export const testimonials: Testimonial[] = [
     name: "Elena Rossi",
     role: "Hotel Director, Rossini",
     content:
-      "The boutique hotel project exceeded our expectations. Velora brought a level of sophistication that our guests rave about.",
+      "The boutique hotel project exceeded our expectations. Veylora brought a level of sophistication that our guests rave about.",
     avatar:
       "https://ui-avatars.com/api/?name=Elena+Rossi&background=C8A24A&color=fff&size=80",
   },

@@ -23,7 +23,7 @@ export default function Home() {
               </h2>
               <div className="w-12 h-px bg-gold mx-auto mb-6" />
               <p className="text-gray-500 leading-relaxed">
-                At Velora, we believe every space tells a story. Our
+                At Veylora, we believe every space tells a story. Our
                 award-winning team blends contemporary minimalism with timeless
                 elegance to create interiors that inspire and endure. From
                 private residences to commercial landmarks, we bring vision to

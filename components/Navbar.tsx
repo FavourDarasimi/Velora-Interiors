@@ -23,7 +23,7 @@ export default function Navbar() {
             href="/"
             className="font-serif text-2xl tracking-[0.2em] text-foreground"
           >
-            VELORA
+            VEYLORA
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
