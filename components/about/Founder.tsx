@@ -4,7 +4,7 @@ import Reveal from "@/components/Reveal";
 export default function Founder() {
   return (
     <Reveal>
-      <section className="py-24 px-6">
+      <section className="py-24 px-4 md:px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative h-[400px] md:h-[500px]">
             <Image

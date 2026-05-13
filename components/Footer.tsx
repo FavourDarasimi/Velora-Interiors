@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-white py-16 px-6">
+    <footer className="bg-foreground text-white py-16 px-4 md:px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div>
           <h3 className="font-serif text-2xl tracking-[0.2em] mb-4">VEYLORA</h3>

@@ -56,7 +56,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-          className="mt-10 w-full max-w-4xl px-6"
+          className="mt-10 w-full max-w-4xl px-4 md:px-6"
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10">
             {[

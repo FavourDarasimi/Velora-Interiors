@@ -32,7 +32,7 @@ export default function CTA() {
           ].join(", "),
         }}
       />
-      <div className="max-w-3xl mx-auto text-center relative z-10 px-6">
+      <div className="max-w-3xl mx-auto text-center relative z-10 px-4 md:px-6">
         <h2 className="font-serif text-3xl md:text-4xl text-foreground mb-4">
           Ready to Transform Your Space?
         </h2>
@@ -42,7 +42,7 @@ export default function CTA() {
         </p>
         <Link
           href="/contact"
-          className="inline-block px-10 py-4 bg-gold text-white text-sm tracking-[0.15em] uppercase hover:bg-gold/90 transition-colors"
+          className="inline-block text-nowrap px-10 py-4 bg-gold text-white text-sm tracking-[0.15em] uppercase hover:bg-gold/90 transition-colors"
         >
           Book Your Consultation
         </Link>

@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
 
       <Reveal>
-        <section className="py-24 px-6">
+        <section className="py-24 px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl mx-auto text-center">
               <span className="text-xs tracking-[0.15em] uppercase text-gold">
@@ -35,7 +35,7 @@ export default function Home() {
       </Reveal>
 
       <Reveal>
-        <section className="py-24 px-6 bg-mild-gray/50">
+        <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
               <span className="text-xs tracking-[0.15em] uppercase text-gold">
@@ -55,7 +55,7 @@ export default function Home() {
       </Reveal>
 
       <Reveal>
-        <section className="py-24 px-6">
+        <section className="py-24 px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
               <span className="text-xs tracking-[0.15em] uppercase text-gold">
@@ -75,7 +75,7 @@ export default function Home() {
       </Reveal>
 
       <Reveal>
-        <section className="py-24 px-6 bg-mild-gray/50">
+        <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
               <span className="text-xs tracking-[0.15em] uppercase text-gold">

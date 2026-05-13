@@ -4,7 +4,7 @@ import { values } from "@/lib/data";
 export default function Values() {
   return (
     <Reveal>
-      <section className="py-24 px-6 bg-mild-gray/50">
+      <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-xs tracking-[0.15em] uppercase text-gold">

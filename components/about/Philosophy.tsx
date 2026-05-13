@@ -3,7 +3,7 @@ import Reveal from "@/components/Reveal";
 export default function Philosophy() {
   return (
     <Reveal>
-      <section className="py-24 px-6">
+      <section className="py-24 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <span className="text-xs tracking-[0.15em] uppercase text-gold">
             Our Philosophy

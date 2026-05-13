@@ -14,8 +14,7 @@ export default function About() {
       <Values />
       <Founder />
       <Stats />
-      <AboutTestimonials />
-      <div className="max-w-7xl mx-auto my-10 px-6">
+      <div className="max-w-7xl mx-auto my-10 px-4 md:px-6">
         <CTA />
       </div>
     </>
