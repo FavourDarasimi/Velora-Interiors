@@ -1,4 +1,4 @@
-import Reveal from "@/components/Reveal";
+﻿import Reveal from "@/components/Reveal";
 import TestimonialCard from "@/components/Testimonial";
 import { testimonials } from "@/lib/data";
 
@@ -8,7 +8,7 @@ export default function ServicesTestimonials() {
       <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.15em] uppercase text-gold">
+            <span className="text-xs tracking-[0.15em] uppercase text-brown">
               Client Stories
             </span>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3">

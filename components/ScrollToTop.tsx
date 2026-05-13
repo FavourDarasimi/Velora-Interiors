@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -23,7 +23,7 @@ export default function ScrollToTop() {
           transition={{ duration: 0.25, ease: "easeOut" }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           aria-label="Scroll to top"
-          className="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-gold text-white flex items-center justify-center shadow-lg hover:bg-gold/90 transition-colors"
+          className="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-brown text-white flex items-center justify-center shadow-lg hover:bg-brown/90 transition-colors"
         >
           <svg
             className="w-5 h-5"

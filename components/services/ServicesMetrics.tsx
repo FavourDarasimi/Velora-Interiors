@@ -1,4 +1,4 @@
-import { serviceMetrics } from "@/lib/data";
+﻿import { serviceMetrics } from "@/lib/data";
 
 export default function ServicesMetrics() {
   return (
@@ -7,7 +7,7 @@ export default function ServicesMetrics() {
         <div className="grid grid-cols-3 gap-6">
           {serviceMetrics.map((metric) => (
             <div key={metric.id} className="text-center">
-              <p className="font-serif text-2xl md:text-3xl text-gold mb-1">
+              <p className="font-serif text-2xl md:text-3xl text-brown mb-1">
                 {metric.number}
               </p>
               <p className="text-gray-500 text-xs tracking-wide uppercase">

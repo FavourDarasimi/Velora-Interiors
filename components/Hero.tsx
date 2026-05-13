@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -46,7 +46,7 @@ export default function Hero() {
         >
           <Link
             href="/contact"
-            className="inline-block px-10 py-4 bg-gold text-white text-sm tracking-[0.15em] uppercase hover:bg-gold/90 transition-colors"
+            className="inline-block px-10 py-4 bg-brown text-white text-sm tracking-[0.15em] uppercase hover:bg-brown/90 transition-colors rounded-lg"
           >
             Book a Consultation
           </Link>
@@ -69,7 +69,7 @@ export default function Hero() {
                 key={stat.label}
                 className="text-center py-6 bg-black/30 backdrop-blur-sm"
               >
-                <p className="font-serif  text-2xl sm:text-3xl text-gold mb-1">
+                <p className="font-serif  text-2xl sm:text-3xl text-brown-light mb-1">
                   {stat.value}
                 </p>
                 <p className="text-xs text-white/70 tracking-wide">

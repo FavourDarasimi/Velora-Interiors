@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -42,7 +42,7 @@ export default function CTA() {
         </p>
         <Link
           href="/contact"
-          className="inline-block text-nowrap px-10 py-4 bg-gold text-white text-sm tracking-[0.15em] uppercase hover:bg-gold/90 transition-colors"
+          className="inline-block text-nowrap px-10 py-4 bg-brown text-white text-sm tracking-[0.15em] uppercase hover:bg-brown/90 transition-colors rounded-lg"
         >
           Book Your Consultation
         </Link>

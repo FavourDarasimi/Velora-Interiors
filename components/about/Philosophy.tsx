@@ -1,17 +1,17 @@
-import Reveal from "@/components/Reveal";
+﻿import Reveal from "@/components/Reveal";
 
 export default function Philosophy() {
   return (
     <Reveal>
       <section className="py-24 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="text-xs tracking-[0.15em] uppercase text-gold">
+          <span className="text-xs tracking-[0.15em] uppercase text-brown">
             Our Philosophy
           </span>
           <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3 mb-5">
             The Art of Refined Living
           </h2>
-          <div className="w-12 h-px bg-gold mx-auto mb-8" />
+          <div className="w-12 h-px bg-brown mx-auto mb-8" />
           <p className="text-gray-500 leading-relaxed mb-6">
             At Veylora, we believe interior design is more than decoration
             &mdash; it is an expression of identity. Every space we create is a

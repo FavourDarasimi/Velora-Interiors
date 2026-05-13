@@ -1,4 +1,4 @@
-import Reveal from "@/components/Reveal";
+﻿import Reveal from "@/components/Reveal";
 import { processSteps } from "@/lib/data";
 
 export default function Process() {
@@ -7,7 +7,7 @@ export default function Process() {
       <section className="py-24 px-4 md:px-6 bg-foreground text-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.15em] uppercase text-gold">
+            <span className="text-xs tracking-[0.15em] uppercase text-brown">
               Our Process
             </span>
             <h2 className="font-serif text-3xl md:text-4xl mt-3">
@@ -17,8 +17,8 @@ export default function Process() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
             {processSteps.map((step) => (
               <div key={step.id} className="text-center">
-                <div className="w-14 h-14 mx-auto mb-6 rounded-full border border-gold flex items-center justify-center">
-                  <span className="text-gold font-serif text-xl">
+                <div className="w-14 h-14 mx-auto mb-6 rounded-full border border-brown flex items-center justify-center">
+                  <span className="text-brown font-serif text-xl">
                     {step.step}
                   </span>
                 </div>

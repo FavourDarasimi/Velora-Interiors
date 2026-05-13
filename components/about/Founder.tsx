@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Reveal from "@/components/Reveal";
 
 export default function Founder() {
@@ -6,7 +6,7 @@ export default function Founder() {
     <Reveal>
       <section className="py-24 px-4 md:px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div className="relative h-[400px] md:h-[500px]">
+          <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80"
               alt="Veylora design studio workspace"
@@ -15,13 +15,13 @@ export default function Founder() {
             />
           </div>
           <div>
-            <span className="text-xs tracking-[0.15em] uppercase text-gold">
+            <span className="text-xs tracking-[0.15em] uppercase text-brown">
               Meet the Founder
             </span>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3 mb-5">
               Elena Veylora
             </h2>
-            <div className="w-12 h-px bg-gold mb-8" />
+            <div className="w-12 h-px bg-brown mb-8" />
             <p className="text-gray-500 leading-relaxed mb-6">
               With over a decade of experience in luxury interior design, Elena
               founded Veylora Interiors with a singular vision: to create

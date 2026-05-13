@@ -1,8 +1,9 @@
-'use client';
+﻿"use client";
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -13,7 +14,12 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+  function isActive(href: string) {
+    return href === "/" ? pathname === "/" : pathname.startsWith(href);
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
@@ -27,18 +33,30 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-sm tracking-wide text-gray-600 hover:text-gold transition-colors"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const active = isActive(link.href);
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`relative group text-sm tracking-wide transition-colors ${
+                    active ? "text-brown" : "text-gray-600 hover:text-brown"
+                  }`}
+                >
+                  {link.label}
+                  <span
+                    className={`absolute -bottom-1 left-0 w-full h-[1px] bg-brown origin-left transition-transform duration-300 ${
+                      active
+                        ? "scale-x-100"
+                        : "scale-x-0 group-hover:scale-x-100"
+                    }`}
+                  />
+                </Link>
+              );
+            })}
             <Link
               href="/contact"
-              className="px-6 py-2.5 bg-gold text-white text-sm tracking-wide hover:bg-gold/90 transition-colors"
+              className="px-6 py-2.5 bg-brown text-white text-sm tracking-wide hover:bg-brown/90 transition-colors rounded-lg"
             >
               Book Consultation
             </Link>
@@ -89,7 +107,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block text-sm tracking-wide text-gray-600 hover:text-gold transition-colors"
+                  className="block text-sm tracking-wide text-gray-600 hover:text-brown transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}
@@ -97,7 +115,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/contact"
-                className="block px-6 py-3 bg-gold text-white text-sm tracking-wide text-center hover:bg-gold/90 transition-colors"
+                className="block px-6 py-3 bg-brown text-white text-sm tracking-wide text-center hover:bg-brown/90 transition-colors rounded-lg"
                 onClick={() => setIsOpen(false)}
               >
                 Book Consultation

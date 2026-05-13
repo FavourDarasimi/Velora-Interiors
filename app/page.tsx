@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+﻿import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/Testimonial";
@@ -15,13 +15,13 @@ export default function Home() {
         <section className="py-24 px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl mx-auto text-center">
-              <span className="text-xs tracking-[0.15em] uppercase text-gold">
+              <span className="text-xs tracking-[0.15em] uppercase text-brown">
                 About
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3 mb-5">
                 Crafting Luxury Spaces
               </h2>
-              <div className="w-12 h-px bg-gold mx-auto mb-6" />
+              <div className="w-12 h-px bg-brown mx-auto mb-6" />
               <p className="text-gray-500 leading-relaxed">
                 At Veylora, we believe every space tells a story. Our
                 award-winning team blends contemporary minimalism with timeless
@@ -38,7 +38,7 @@ export default function Home() {
         <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
-              <span className="text-xs tracking-[0.15em] uppercase text-gold">
+              <span className="text-xs tracking-[0.15em] uppercase text-brown">
                 Portfolio
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3">
@@ -58,7 +58,7 @@ export default function Home() {
         <section className="py-24 px-4 md:px-6">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
-              <span className="text-xs tracking-[0.15em] uppercase text-gold">
+              <span className="text-xs tracking-[0.15em] uppercase text-brown">
                 Services
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3">
@@ -78,7 +78,7 @@ export default function Home() {
         <section className="py-24 px-4 md:px-6 bg-mild-gray/50">
           <div className="max-w-7xl mx-auto">
             <div className="mb-14">
-              <span className="text-xs tracking-[0.15em] uppercase text-gold">
+              <span className="text-xs tracking-[0.15em] uppercase text-brown">
                 Testimonials
               </span>
               <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3">

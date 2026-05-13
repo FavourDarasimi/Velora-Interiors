@@ -1,4 +1,4 @@
-import Reveal from "@/components/Reveal";
+﻿import Reveal from "@/components/Reveal";
 import { serviceDetails } from "@/lib/data";
 
 export default function ServicesGrid() {
@@ -7,7 +7,7 @@ export default function ServicesGrid() {
       <section className="py-24 px-4 md:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.15em] uppercase text-gold">
+            <span className="text-xs tracking-[0.15em] uppercase text-brown">
               Our Expertise
             </span>
             <h2 className="font-serif text-3xl md:text-4xl text-foreground mt-3">
@@ -23,9 +23,9 @@ export default function ServicesGrid() {
             {serviceDetails.map((service) => (
               <div
                 key={service.id}
-                className="group p-10 bg-mild-gray/50 hover:bg-white border border-gray-200 hover:shadow-lg transition-all duration-300"
+                className="group p-10 bg-mild-gray/50 hover:bg-white border border-gray-200 hover:border-brown hover:shadow-lg transition-all duration-300 rounded-lg"
               >
-                <div className="w-8 h-px bg-gold mb-6" />
+                <div className="w-8 h-px bg-brown mb-6" />
                 <h3 className="font-serif text-xl text-foreground mb-4">
                   {service.title}
                 </h3>
@@ -38,10 +38,12 @@ export default function ServicesGrid() {
                       key={i}
                       className="flex items-start gap-3 text-sm text-gray-600"
                     >
-                      <span className="text-gold mt-0.5 shrink-0">&mdash;</span>
+                      <span className="text-brown mt-0.5 shrink-0">
+                        &mdash;
+                      </span>
                       {feature}
                     </li>
-                    ))}
+                  ))}
                 </ul>
               </div>
             ))}
