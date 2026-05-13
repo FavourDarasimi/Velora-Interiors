@@ -76,6 +76,46 @@ export const services: Service[] = [
   },
 ];
 
+export interface Value {
+  id: string;
+  title: string;
+  description: string;
+}
+
+export interface Stat {
+  id: string;
+  number: string;
+  label: string;
+}
+
+export const values: Value[] = [
+  {
+    id: "1",
+    title: "Artisanal Craftsmanship",
+    description:
+      "Every detail is meticulously considered and executed by our master artisans.",
+  },
+  {
+    id: "2",
+    title: "Bespoke Approach",
+    description:
+      "No two projects are alike. We tailor every design to your unique vision and lifestyle.",
+  },
+  {
+    id: "3",
+    title: "Timeless Aesthetic",
+    description:
+      "We create spaces that transcend trends \u2014 classic, enduring, and effortlessly elegant.",
+  },
+];
+
+export const stats: Stat[] = [
+  { id: "1", number: "12+", label: "Years Experience" },
+  { id: "2", number: "200+", label: "Projects Completed" },
+  { id: "3", number: "98%", label: "Client Satisfaction" },
+  { id: "4", number: "15+", label: "Awards Received" },
+];
+
 export const testimonials: Testimonial[] = [
   {
     id: "1",
