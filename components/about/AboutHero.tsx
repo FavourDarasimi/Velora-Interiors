@@ -1,28 +1,43 @@
-﻿import Image from "next/image";
-import Reveal from "@/components/Reveal";
+﻿import Reveal from "@/components/Reveal";
 
 export default function AboutHero() {
   return (
-    <section className="relative h-[70vh] min-h-[500px]">
-      <Image
-        src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=1600&q=80"
-        alt="Luxury interior design studio"
-        fill
-        className="object-cover"
-        priority
+    <section className="relative h-[70vh] min-h-[500px] bg-white overflow-hidden">
+      <div
+        className="absolute inset-0 animate-[hero-pulse_8s_ease-in-out_infinite]"
+        style={{
+          backgroundColor: "#ffffff",
+          backgroundImage: [
+            "linear-gradient(to right, rgba(139,94,52,0.06) 1px, transparent 1px)",
+            "linear-gradient(to bottom, rgba(139,94,52,0.06) 1px, transparent 1px)",
+            "radial-gradient(ellipse at 20% 50%, rgba(139,94,52,0.08) 0%, transparent 60%)",
+            "radial-gradient(ellipse at 80% 20%, rgba(139,94,52,0.05) 0%, transparent 50%)",
+            "radial-gradient(ellipse at 50% 80%, rgba(139,94,52,0.06) 0%, transparent 50%)",
+          ].join(", "),
+          backgroundSize: [
+            "60px 60px",
+            "60px 60px",
+            "100% 100%",
+            "100% 100%",
+            "100% 100%",
+          ].join(", "),
+          maskImage:
+            "radial-gradient(ellipse at center, black 30%, transparent 75%)",
+          WebkitMaskImage:
+            "radial-gradient(ellipse at center, black 30%, transparent 75%)",
+        }}
       />
-      <div className="absolute inset-0 bg-black/40" />
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center text-white px-4 md:px-6">
+        <div className="text-center px-4 md:px-6">
           <Reveal>
-            <span className="text-xs tracking-[0.15em] uppercase text-brown-light">
+            <span className="text-xs tracking-[0.15em] uppercase text-brown">
               About
             </span>
-            <h1 className="font-serif text-4xl md:text-6xl text-white mt-4 mb-5">
+            <h1 className="font-serif text-4xl md:text-6xl text-foreground mt-4 mb-5">
               Our Story
             </h1>
             <div className="w-12 h-px bg-brown mx-auto mb-6" />
-            <p className="text-white/80 max-w-xl mx-auto leading-relaxed text-lg">
+            <p className="text-gray-500 max-w-xl mx-auto leading-relaxed text-lg">
               Creating interiors that embody elegance, craftsmanship, and
               timeless beauty since 2012.
             </p>

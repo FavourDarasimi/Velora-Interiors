@@ -6,7 +6,7 @@ export default function WhatsAppSection() {
   const whatsappUrl = `https://wa.me/${contactInfo.whatsappNumber}`;
 
   return (
-    <section className="py-20 bg-soft-gray/50">
+    <section className="py-20 bg-mild-gray/50">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <Reveal>
           <div className="text-center max-w-2xl mx-auto">
