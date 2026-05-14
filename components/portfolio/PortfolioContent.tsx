@@ -61,7 +61,7 @@ export default function PortfolioContent() {
       <BeforeAfter data={beforeAfter} />
 
       <Reveal>
-        <div className="w-full mx-auto  px-4 md:px-6">
+        <div className="w-full mx-auto">
           <CTA />
         </div>
       </Reveal>

@@ -106,7 +106,7 @@ export default function CTA() {
             </p>
             <Link
               href="/consultation"
-              className="inline-block w-full sm:w-auto px-6 sm:px-8 md:px-12 py-4 bg-brown text-white text-sm tracking-[0.15em] uppercase hover:bg-brown/90 transition-colors rounded-lg"
+              className="inline-block w-full sm:w-auto text-nowrap px-6 sm:px-8 md:px-12 py-4 bg-brown text-white text-sm tracking-[0.15em] uppercase hover:bg-brown/90 transition-colors rounded-lg"
             >
               Book a Consultation
             </Link>

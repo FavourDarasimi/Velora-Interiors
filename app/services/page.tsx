@@ -11,7 +11,7 @@ export default function Services() {
       <ServicesGrid />
       <ServicesMetrics />
       <Process />
-      <div className="w-full mx-auto px-4 md:px-6">
+      <div className="w-full mx-auto">
         <CTA />
       </div>
     </>
