@@ -18,7 +18,9 @@ export default function Values() {
             {values.map((value) => (
               <div key={value.id} className="text-center">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-brown/10 flex items-center justify-center">
-                  <span className="text-brown text-2xl font-serif">âœ¦</span>
+                  <span className="text-brown text-2xl font-serif">
+                    {value.id}
+                  </span>
                 </div>
                 <h3 className="font-serif text-xl text-foreground mb-4">
                   {value.title}
