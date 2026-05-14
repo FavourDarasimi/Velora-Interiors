@@ -2,11 +2,7 @@
 import Reveal from "@/components/Reveal";
 import type { BeforeAfterData } from "@/lib/data";
 
-export default function BeforeAfter({
-  data,
-}: {
-  data: BeforeAfterData;
-}) {
+export default function BeforeAfter({ data }: { data: BeforeAfterData }) {
   return (
     <Reveal>
       <section className="py-24 px-4 md:px-6">
@@ -24,7 +20,7 @@ export default function BeforeAfter({
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border border-gray-200 rounded-lg overflow-hidden">
-            <div className="relative aspect-[4/3]">
+            <div className="relative aspect-4/3">
               <Image
                 src={data.before}
                 alt="Before transformation"
@@ -36,7 +32,7 @@ export default function BeforeAfter({
                 Before
               </div>
             </div>
-            <div className="relative aspect-[4/3]">
+            <div className="relative aspect-4/3">
               <Image
                 src={data.after}
                 alt="After transformation"

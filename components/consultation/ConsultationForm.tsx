@@ -34,7 +34,7 @@ export default function ConsultationForm() {
 
   if (submitted) {
     return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[400px] text-center">
+      <div className="flex flex-col items-center justify-center h-full min-h-100 text-center">
         <div className="w-16 h-16 rounded-full bg-brown/10 flex items-center justify-center mb-6">
           <svg
             className="w-8 h-8 text-brown"
@@ -70,14 +70,14 @@ export default function ConsultationForm() {
         <div className="w-10 h-px bg-brown mb-6" />
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <h4 className="text-xs tracking-[0.1em] uppercase text-gray-400 mb-4">
+            <h4 className="text-xs tracking-widest uppercase text-gray-400 mb-4">
               Personal Information
             </h4>
             <div className="space-y-4">
               <div>
                 <label
                   htmlFor="fullName"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Full Name <span className="text-brown">*</span>
                 </label>
@@ -95,7 +95,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Email Address <span className="text-brown">*</span>
                 </label>
@@ -113,7 +113,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Phone Number
                 </label>
@@ -124,20 +124,20 @@ export default function ConsultationForm() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full h-14 px-4 rounded-xl border border-neutral-200 text-foreground placeholder:text-gray-400 focus:outline-none focus:border-brown transition-colors"
-                  placeholder="+234 XXX XXX XXXX"
+                  placeholder="+234 802 256 7743"
                 />
               </div>
             </div>
           </div>
           <div>
-            <h4 className="text-xs tracking-[0.1em] uppercase text-gray-400 mb-4">
+            <h4 className="text-xs tracking-widest uppercase text-gray-400 mb-4">
               Project Details
             </h4>
             <div className="space-y-4">
               <div>
                 <label
                   htmlFor="projectType"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Project Type <span className="text-brown">*</span>
                 </label>
@@ -163,7 +163,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="location"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Project Location <span className="text-brown">*</span>
                 </label>
@@ -181,7 +181,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="budgetRange"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Budget Range <span className="text-brown">*</span>
                 </label>
@@ -205,7 +205,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="preferredDate"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Preferred Consultation Date{" "}
                   <span className="text-brown">*</span>
@@ -223,7 +223,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="preferredTime"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Preferred Time <span className="text-brown">*</span>
                 </label>
@@ -246,7 +246,7 @@ export default function ConsultationForm() {
               <div>
                 <label
                   htmlFor="projectDescription"
-                  className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+                  className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
                 >
                   Project Description <span className="text-brown">*</span>
                 </label>

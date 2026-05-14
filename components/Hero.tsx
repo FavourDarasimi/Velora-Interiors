@@ -60,10 +60,10 @@ export default function Hero() {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10">
             {[
-              { value: "1000+", label: "Satisfied Customers" },
-              { value: "500+", label: "Projects Completed" },
-              { value: "15+", label: "Years Experience" },
-              { value: "50+", label: "Design Awards" },
+              { value: "12+", label: "Years Experience" },
+              { value: "200+", label: "Projects Completed" },
+              { value: "98%", label: "Client Satisfaction" },
+              { value: "15+", label: "Awards Received" },
             ].map((stat) => (
               <div
                 key={stat.label}

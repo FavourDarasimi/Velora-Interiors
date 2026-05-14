@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 function LoadingBall() {
   return (
-    <div className="w-10 h-10 rounded-full bg-[#8b5e34] animate-pulse shadow-lg" />
+    <div className="w-10 h-10 rounded-full bg-brown animate-pulse shadow-lg" />
   );
 }
 
@@ -19,7 +19,7 @@ export function LoadingWrapper({ children }: { children: React.ReactNode }) {
 
   if (loading) {
     return (
-      <div className="fixed inset-0 z-[100] flex items-center justify-center bg-white">
+      <div className="fixed inset-0 z-100 flex items-center justify-center bg-white">
         <LoadingBall />
       </div>
     );

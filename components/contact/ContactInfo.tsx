@@ -42,7 +42,7 @@ export default function ContactInfo() {
                   <Icon className="w-4 h-4 text-brown" />
                 </div>
                 <div>
-                  <p className="text-xs tracking-[0.1em] uppercase text-gray-400 mb-1">
+                  <p className="text-xs tracking-widest uppercase text-gray-400 mb-1">
                     {item.label}
                   </p>
                   {item.href ? (

@@ -2,7 +2,7 @@
 
 export default function ServicesHero() {
   return (
-    <section className="relative h-[70vh] min-h-[500px] bg-white overflow-hidden">
+    <section className="relative h-[70vh] min-h-125 bg-white overflow-hidden">
       <div
         className="absolute inset-0 animate-[hero-pulse_8s_ease-in-out_infinite]"
         style={{

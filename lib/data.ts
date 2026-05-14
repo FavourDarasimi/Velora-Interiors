@@ -42,51 +42,51 @@ export const faqs: FAQ[] = [
     id: "1",
     question: "How do I start a project with Veylora?",
     answer:
-      "Simply reach out through our contact form or WhatsApp. We'll schedule an initial consultation to discuss your vision, budget, and timeline — no obligation.",
+      'Simply book a consultation by clicking the "Book Consultation" button, call us, or chat with us on WhatsApp. We\'ll schedule an initial consultation at our Lagos studio or onsite to discuss your vision, budget, and timeline — no obligation.',
     icon: "FileText",
   },
   {
     id: "2",
     question: "What is the typical project timeline?",
     answer:
-      "Timelines vary by scope. A full residential design typically takes 8–16 weeks from concept to completion. We'll provide a detailed schedule during our consultation.",
+      "Timelines vary by scope. A full residential design in Lagos typically takes 8–16 weeks from concept to completion. We'll provide a detailed schedule during our consultation, accounting for material lead times and local contractor coordination.",
     icon: "Clock",
   },
   {
     id: "3",
     question: "Do you offer virtual consultations?",
     answer:
-      "Yes. We offer virtual consultations via video call for clients outside Lagos or those who prefer remote collaboration. We can review spaces, share mood boards, and discuss concepts entirely online.",
+      "Yes. We offer virtual consultations via WhatsApp, Zoom, or Google Meet for clients in Abuja, Port Harcourt, or anywhere outside Lagos. We can review photos, share mood boards, and discuss concepts entirely remotely.",
     icon: "Monitor",
   },
   {
     id: "4",
     question: "What areas do you serve?",
     answer:
-      "We're based in Lagos, Nigeria, and handle projects nationwide and across West Africa. For international projects, we collaborate with trusted local partners on the ground.",
+      "We're based in Lagos and handle projects across Nigeria — including Abuja, Port Harcourt, Ibadan, and Benin City — as well as West Africa. For projects outside these areas, we collaborate with trusted local partners.",
     icon: "MapPin",
   },
   {
     id: "5",
     question: "How do I book a consultation?",
     answer:
-      "You can book directly through our contact form, send us an email, or chat with us on WhatsApp. We typically respond within 24 hours.",
+      "You can book directly through the consultation form, email us at hello@veylora.com, call +2348022567743, or chat with us on WhatsApp. We typically respond within 24 hours.",
     icon: "Calendar",
   },
   {
     id: "6",
     question: "What is your pricing structure?",
     answer:
-      "Our pricing is project-based and tailored to each client's needs. We offer different service tiers from full turnkey design to hourly consultations. Contact us for a custom quote.",
+      "Our pricing is project-based and quoted in Naira (₦), tailored to each client's needs. We offer different service tiers from full turnkey design to hourly consultations. Contact us for a custom quote.",
     icon: "CreditCard",
   },
 ];
 
 export const contactInfo: ContactInfo = {
   email: "hello@veylora.com",
-  phone: "+234 xxx xxx xxxx",
+  phone: "+2348022567743",
   whatsapp: "Chat with us",
-  whatsappNumber: "234XXXXXXXXX",
+  whatsappNumber: "2348022567743",
   studio: "Lagos, Nigeria",
   hours: "Mon – Fri: 9:00 AM – 6:00 PM",
 };
@@ -352,16 +352,22 @@ export const portfolioProjects: PortfolioProject[] = [
       result:
         "A serene, light-filled home that feels both sophisticated and livable. Every room balances purposeful design with effortless comfort, earning the project a feature in Architectural Digest Africa.",
     },
-    materials: ["White Oak", "Natural Stone", "Brushed Brass", "Textured Linen", "Hand-tufted Wool"],
+    materials: [
+      "White Oak",
+      "Natural Stone",
+      "Brushed Brass",
+      "Textured Linen",
+      "Hand-tufted Wool",
+    ],
   },
   {
     id: "p2",
     title: "Skyline Penthouse",
     category: "Luxury",
-    location: "Dubai, UAE",
+    location: "Lagos, Nigeria",
     slug: "skyline-penthouse",
     description:
-      "A minimalist penthouse with panoramic city views, featuring bespoke furniture and a neutral palette accented in warm bronze.",
+      "A minimalist penthouse with panoramic Lagos skyline views, featuring bespoke furniture and a neutral palette accented in warm bronze.",
     image:
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
     images: [
@@ -370,19 +376,25 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     story: {
       challenge:
-        "The client wanted a penthouse that felt luxurious but not ostentatious \u2014 a minimalist sanctuary with panoramic city views as the focal point.",
+        "The client wanted a penthouse that felt luxurious but not ostentatious \u2014 a minimalist sanctuary with panoramic Lagos skyline views as the focal point.",
       solution:
-        "We used a restrained palette of warm neutrals, custom low-profile furniture, and floor-to-ceiling glass treatments that frame the skyline without competing with it.",
+        "We used a restrained palette of warm neutrals, custom low-profile furniture, and floor-to-ceiling glass treatments that frame the cityscape without competing with it.",
       result:
-        "A serene, gallery-like penthouse where the Dubai skyline takes centre stage. The design feels both expansive and intimate \u2014 luxury through subtraction.",
+        "A serene, gallery-like penthouse where the Lagos skyline takes centre stage. The design feels both expansive and intimate \u2014 luxury through subtraction.",
     },
-    materials: ["Carrara Marble", "Brushed Steel", "Velvet", "Smoked Glass", "European Oak"],
+    materials: [
+      "Carrara Marble",
+      "Brushed Steel",
+      "Velvet",
+      "Smoked Glass",
+      "European Oak",
+    ],
   },
   {
     id: "p3",
     title: "Azure Coastal Villa",
     category: "Residential",
-    location: "Malibu, USA",
+    location: "Lekki, Lagos, Nigeria",
     slug: "azure-coastal-villa",
     description:
       "Seaside luxury blending indoor and outdoor living with organic materials and a breezy coastal palette.",
@@ -394,22 +406,28 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     story: {
       challenge:
-        "The existing home felt disconnected from its stunning coastal surroundings \u2014 small, compartmentalised rooms that turned inward rather than embracing the ocean.",
+        "The existing home felt disconnected from its stunning coastal surroundings \u2014 small, compartmentalised rooms that turned inward rather than embracing the Atlantic breeze.",
       solution:
-        "We opened up the entire floor plan, specified breezy linen and organic stone finishes, and created seamless indoor-outdoor transitions with disappearing glass walls.",
+        "We opened up the entire floor plan, specified breezy linen and organic stone finishes, and created seamless indoor-outdoor transitions with disappearing glass walls that open onto the lagoon.",
       result:
-        "A relaxed coastal retreat where every room connects to the Pacific. The villa now feels like an effortless extension of the beach itself.",
+        "A relaxed coastal retreat where every room connects to the Lagos lagoon. The villa now feels like an effortless extension of the waterfront itself.",
     },
-    materials: ["Whitewashed Oak", "Natural Linen", "Terrazzo", "Rattan", "Limestone"],
+    materials: [
+      "Whitewashed Oak",
+      "Natural Linen",
+      "Terrazzo",
+      "Rattan",
+      "Limestone",
+    ],
   },
   {
     id: "p4",
     title: "The Ivory Hotel",
     category: "Hospitality",
-    location: "Marrakech, Morocco",
+    location: "Abuja, Nigeria",
     slug: "ivory-hotel",
     description:
-      "A boutique hotel interior blending art-deco influences with Moroccan craftsmanship and warm ambient lighting.",
+      "A boutique hotel interior blending contemporary elegance with Nigerian craftsmanship and warm ambient lighting.",
     image:
       "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
     images: [
@@ -418,13 +436,19 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     story: {
       challenge:
-        "The owners wanted a boutique experience that honoured Moroccan heritage while appealing to modern luxury travellers with contemporary expectations.",
+        "The owners wanted a boutique experience that honoured Nigerian heritage while appealing to modern luxury travellers with contemporary expectations.",
       solution:
-        "We blended traditional zellige tilework and carved plaster with clean-lined contemporary furnishings. Warm amber lighting and layered textures create an intimate, transportive atmosphere.",
+        "We blended traditional Nigerian textile patterns and carved wood screens with clean-lined contemporary furnishings. Warm amber lighting and layered textures create an intimate, transportive atmosphere.",
       result:
         "A critically acclaimed boutique hotel that balances cultural authenticity with modern comfort \u2014 earning a spot on Cond\u00e9 Nast Traveller\u2019s Hot List.",
     },
-    materials: ["Zellige Tile", "Tadelakt Plaster", "Brushed Brass", "Silk", "Cedar Wood"],
+    materials: [
+      "Nigerian Textiles",
+      "Carved Iroko Wood",
+      "Brushed Brass",
+      "Silk",
+      "Terrazzo",
+    ],
   },
   {
     id: "p5",
@@ -448,7 +472,13 @@ export const portfolioProjects: PortfolioProject[] = [
       result:
         "Employee satisfaction scores rose by over 40%. The space now attracts top talent and consistently impresses visiting clients and partners.",
     },
-    materials: ["Recycled Glass", "Living Moss Walls", "Satin Aluminium", "Acoustic Felt", "Bamboo"],
+    materials: [
+      "Recycled Glass",
+      "Living Moss Walls",
+      "Satin Aluminium",
+      "Acoustic Felt",
+      "Bamboo",
+    ],
   },
   {
     id: "p6",
@@ -472,7 +502,13 @@ export const portfolioProjects: PortfolioProject[] = [
       result:
         "Abuja\u2019s most sought-after nightlife destination. The space feels moody, sophisticated, and exclusive \u2014 exactly the atmosphere the client envisioned.",
     },
-    materials: ["Dark-stained Oak", "Velvet", "Brushed Brass", "Smoked Mirror", "Travertine"],
+    materials: [
+      "Dark-stained Oak",
+      "Velvet",
+      "Brushed Brass",
+      "Smoked Mirror",
+      "Travertine",
+    ],
   },
   {
     id: "p7",
@@ -496,13 +532,19 @@ export const portfolioProjects: PortfolioProject[] = [
       result:
         "A tranquil sanctuary where the boundary between indoors and outdoors dissolves completely. The garden becomes part of every room.",
     },
-    materials: ["Terracotta", "Travertine", "Reclaimed Teak", "Linen", "Wrought Iron"],
+    materials: [
+      "Terracotta",
+      "Travertine",
+      "Reclaimed Teak",
+      "Linen",
+      "Wrought Iron",
+    ],
   },
   {
     id: "p8",
     title: "Mirabelle Apartment",
     category: "Modern",
-    location: "Dubai, UAE",
+    location: "Victoria Island, Lagos, Nigeria",
     slug: "mirabelle-apartment",
     description:
       "A contemporary urban apartment defined by clean lines, neutral layers, and curated art pieces.",
@@ -514,13 +556,19 @@ export const portfolioProjects: PortfolioProject[] = [
     ],
     story: {
       challenge:
-        "A compact apartment needed to feel spacious and purposeful, with distinct zones for living, working, and entertaining \u2014 all within a tight footprint.",
+        "A compact Victoria Island apartment needed to feel spacious and purposeful, with distinct zones for living, working, and entertaining \u2014 all within a tight footprint.",
       solution:
         "We used a minimalist palette with mirrored surfaces to amplify natural light, custom joinery for concealed storage, and a sculptural curved sofa to define the living zone without walls.",
       result:
         "The apartment feels twice its size. Every square metre is purposeful, elegant, and liveable \u2014 proving that great design transcends square footage.",
     },
-    materials: ["High-gloss Lacquer", "Mirrored Steel", "Wool Boucl\u00e9", "Glass", "White Oak"],
+    materials: [
+      "High-gloss Lacquer",
+      "Mirrored Steel",
+      "Wool Boucl\u00e9",
+      "Glass",
+      "White Oak",
+    ],
   },
 ];
 
@@ -539,7 +587,13 @@ export const featuredProject: FeaturedProjectData = {
     result:
       "A serene, light-filled home that feels both sophisticated and livable. Every room balances purposeful design with effortless comfort, earning the project a feature in Architectural Digest Africa.",
   },
-  materials: ["White Oak", "Natural Stone", "Brushed Brass", "Textured Linen", "Hand-tufted Wool"],
+  materials: [
+    "White Oak",
+    "Natural Stone",
+    "Brushed Brass",
+    "Textured Linen",
+    "Hand-tufted Wool",
+  ],
   image:
     "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1200&q=80",
   images: [
@@ -581,41 +635,41 @@ export const portfolioTestimonials: Testimonial[] = [
   },
   {
     id: "t6",
-    name: "Fatima Al-Rashid",
+    name: "Fatima Usman",
     role: "Owner, The Ivory Hotel",
     content:
-      "Veylora understood our vision for a boutique experience that honours Moroccan heritage while feeling entirely contemporary. Our guests constantly compliment the interiors.",
+      "Veylora understood our vision for a boutique experience that honours Nigerian heritage while feeling entirely contemporary. Our guests constantly compliment the interiors.",
     avatar:
-      "https://ui-avatars.com/api/?name=Fatima+Al-Rashid&background=8B5E34&color=fff&size=80",
+      "https://ui-avatars.com/api/?name=Fatima+Usman&background=8B5E34&color=fff&size=80",
   },
 ];
 
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Sarah Mitchell",
-    role: "Homeowner, Chelsea",
+    name: "Chioma Obi",
+    role: "Homeowner, Ikoyi",
     content:
-      "Veylora transformed our apartment into a sanctuary. Every detail was considered with such care. We couldn't be happier.",
+      "Veylora transformed our Ikoyi home into a sanctuary. Every detail was considered with such care. We couldn't be happier.",
     avatar:
-      "https://ui-avatars.com/api/?name=Sarah+Mitchell&background=8B5E34&color=fff&size=80",
+      "https://ui-avatars.com/api/?name=Chioma+Obi&background=8B5E34&color=fff&size=80",
   },
   {
     id: "2",
-    name: "James Cooper",
-    role: "CEO, Cooper & Co.",
+    name: "Emeka Nwosu",
+    role: "CEO, NovaTech Solutions",
     content:
       "Our office redesign by Veylora increased employee satisfaction and productivity. A truly professional team.",
     avatar:
-      "https://ui-avatars.com/api/?name=James+Cooper&background=8B5E34&color=fff&size=80",
+      "https://ui-avatars.com/api/?name=Emeka+Nwosu&background=8B5E34&color=fff&size=80",
   },
   {
     id: "3",
-    name: "Elena Rossi",
-    role: "Hotel Director, Rossini",
+    name: "Yetunde Bakare",
+    role: "Hotel Director, Eko Hotels",
     content:
       "The boutique hotel project exceeded our expectations. Veylora brought a level of sophistication that our guests rave about.",
     avatar:
-      "https://ui-avatars.com/api/?name=Elena+Rossi&background=8B5E34&color=fff&size=80",
+      "https://ui-avatars.com/api/?name=Yetunde+Bakare&background=8B5E34&color=fff&size=80",
   },
 ];

@@ -29,7 +29,7 @@ export default function PortfolioGrid({
                 href={`/portfolio/${project.slug}`}
                 className="group block"
               >
-                <div className="relative overflow-hidden aspect-[4/3] rounded-lg">
+                <div className="relative overflow-hidden aspect-4/3 rounded-lg">
                   <Image
                     src={project.image}
                     alt={project.title}

@@ -22,7 +22,7 @@ export default function FeaturedProject({
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-[4/5] lg:aspect-auto lg:h-[600px] rounded-lg overflow-hidden">
+            <div className="relative aspect-4/5 lg:aspect-auto lg:h-150 rounded-lg overflow-hidden">
               <Image
                 src={project.image}
                 alt={project.title}

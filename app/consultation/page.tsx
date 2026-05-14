@@ -44,19 +44,19 @@ export default function Consultation() {
               <div className="grid grid-cols-3 gap-6 py-6 border-y border-neutral-100">
                 <div>
                   <p className="font-serif text-2xl md:text-3xl text-brown">
-                    120+
+                    200+
                   </p>
                   <p className="text-sm text-gray-500">Projects Completed</p>
                 </div>
                 <div>
                   <p className="font-serif text-2xl md:text-3xl text-brown">
-                    95%
+                    98%
                   </p>
                   <p className="text-sm text-gray-500">Client Satisfaction</p>
                 </div>
                 <div>
                   <p className="font-serif text-2xl md:text-3xl text-brown">
-                    8+
+                    12+
                   </p>
                   <p className="text-sm text-gray-500">Years Experience</p>
                 </div>

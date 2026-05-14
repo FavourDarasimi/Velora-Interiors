@@ -4,11 +4,11 @@ import { Mail, Phone, MapPin } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-foreground text-white py-16 px-4 md:px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div>
           <h3 className="font-serif text-2xl tracking-[0.2em] mb-4">VEYLORA</h3>
           <p className="text-gray-400 text-sm leading-relaxed">
-            Luxury interior design studio crafting timeless spaces.
+            Lagos-based luxury interior design studio crafting timeless spaces.
           </p>
         </div>
         <div>
@@ -54,11 +54,11 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-4 h-4 text-brown shrink-0" />
-              <span>+1 (555) 123-4567</span>
+              <span>+2348022567743</span>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="w-4 h-4 text-brown shrink-0" />
-              <span>London, United Kingdom</span>
+              <span>Lagos, Nigeria</span>
             </div>
           </div>
 

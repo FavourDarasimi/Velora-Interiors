@@ -29,7 +29,7 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="flex flex-col items-center justify-center h-full min-h-[400px] text-center">
+      <div className="flex flex-col items-center justify-center h-full min-h-100 text-center">
         <div className="w-16 h-16 rounded-full bg-brown/10 flex items-center justify-center mb-6">
           <svg
             className="w-8 h-8 text-brown"
@@ -79,7 +79,7 @@ export default function ContactForm() {
           <div key={field.name}>
             <label
               htmlFor={field.name}
-              className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+              className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
             >
               {field.label}
               {field.required && <span className="text-brown ml-1">*</span>}
@@ -99,7 +99,7 @@ export default function ContactForm() {
         <div>
           <label
             htmlFor="subject"
-            className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+            className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
           >
             Subject <span className="text-brown ml-1">*</span>
           </label>
@@ -123,7 +123,7 @@ export default function ContactForm() {
         <div>
           <label
             htmlFor="message"
-            className="block text-xs tracking-[0.1em] uppercase text-gray-400 mb-2"
+            className="block text-xs tracking-widest uppercase text-gray-400 mb-2"
           >
             Message <span className="text-brown ml-1">*</span>
           </label>

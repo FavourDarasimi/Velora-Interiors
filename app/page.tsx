@@ -65,7 +65,7 @@ export default function Home() {
                 What We Offer
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((service) => (
                 <ServiceCard key={service.id} service={service} />
               ))}
@@ -85,7 +85,7 @@ export default function Home() {
                 What Our Clients Say
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {testimonials.map((testimonial) => (
                 <TestimonialCard
                   key={testimonial.id}
@@ -98,7 +98,7 @@ export default function Home() {
       </Reveal>
 
       <Reveal>
-        <div className="max-w-7xl mx-auto my-10 ">
+        <div className="w-full mx-auto ">
           <CTA />
         </div>
       </Reveal>

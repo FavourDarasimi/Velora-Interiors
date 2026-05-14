@@ -2,7 +2,7 @@
 
 export default function PortfolioHero() {
   return (
-    <section className="relative h-[80vh] min-h-[600px] bg-white overflow-hidden">
+    <section className="relative h-[80vh] min-h-150 bg-white overflow-hidden">
       <div
         className="absolute inset-0 animate-[hero-pulse_8s_ease-in-out_infinite]"
         style={{
@@ -38,8 +38,8 @@ export default function PortfolioHero() {
             </h1>
             <div className="w-16 h-px bg-brown mx-auto mb-6" />
             <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed text-lg md:text-xl">
-              A curated selection of our finest work — from private residences to
-              commercial landmarks.
+              A curated selection of our finest work — from private residences
+              to commercial landmarks.
             </p>
           </Reveal>
         </div>

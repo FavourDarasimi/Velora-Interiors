@@ -14,7 +14,7 @@ export default function Process() {
               How We Bring Your Vision to Life
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {processSteps.map((step) => (
               <div key={step.id} className="text-center">
                 <div className="w-14 h-14 mx-auto mb-6 rounded-full border border-brown flex items-center justify-center">

@@ -14,7 +14,7 @@ export default function Values() {
               Our Values
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {values.map((value) => (
               <div key={value.id} className="text-center">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-brown/10 flex items-center justify-center">
