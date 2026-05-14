@@ -20,6 +20,76 @@ export interface Testimonial {
   avatar: string;
 }
 
+export interface ContactInfo {
+  email: string;
+  phone: string;
+  whatsapp: string;
+  whatsappNumber: string;
+  studio: string;
+  hours: string;
+}
+
+export interface FAQ {
+  id: string;
+  question: string;
+  answer: string;
+  icon: string;
+}
+
+export const faqs: FAQ[] = [
+  {
+    id: "1",
+    question: "How do I start a project with Velora?",
+    answer:
+      "Simply reach out through our contact form or WhatsApp. We'll schedule an initial consultation to discuss your vision, budget, and timeline — no obligation.",
+    icon: "FileText",
+  },
+  {
+    id: "2",
+    question: "What is the typical project timeline?",
+    answer:
+      "Timelines vary by scope. A full residential design typically takes 8–16 weeks from concept to completion. We'll provide a detailed schedule during our consultation.",
+    icon: "Clock",
+  },
+  {
+    id: "3",
+    question: "Do you offer virtual consultations?",
+    answer:
+      "Yes. We offer virtual consultations via video call for clients outside Lagos or those who prefer remote collaboration. We can review spaces, share mood boards, and discuss concepts entirely online.",
+    icon: "Monitor",
+  },
+  {
+    id: "4",
+    question: "What areas do you serve?",
+    answer:
+      "We're based in Lagos, Nigeria, and handle projects nationwide and across West Africa. For international projects, we collaborate with trusted local partners on the ground.",
+    icon: "MapPin",
+  },
+  {
+    id: "5",
+    question: "How do I book a consultation?",
+    answer:
+      "You can book directly through our contact form, send us an email, or chat with us on WhatsApp. We typically respond within 24 hours.",
+    icon: "Calendar",
+  },
+  {
+    id: "6",
+    question: "What is your pricing structure?",
+    answer:
+      "Our pricing is project-based and tailored to each client's needs. We offer different service tiers from full turnkey design to hourly consultations. Contact us for a custom quote.",
+    icon: "CreditCard",
+  },
+];
+
+export const contactInfo: ContactInfo = {
+  email: "hello@velorainteriors.com",
+  phone: "+234 xxx xxx xxxx",
+  whatsapp: "Chat with us",
+  whatsappNumber: "234XXXXXXXXX",
+  studio: "Lagos, Nigeria",
+  hours: "Mon – Fri: 9:00 AM – 6:00 PM",
+};
+
 export const projects: Project[] = [
   {
     id: "1",
