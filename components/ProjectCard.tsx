@@ -4,7 +4,7 @@ import type { Project } from "@/lib/data";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <Link href={`/portfolio/${project.id}`} className="group block">
+    <Link href={`/portfolio/${project.slug}`} className="group block">
       <div className="relative overflow-hidden aspect-3/2 rounded-lg">
         <Image
           src={project.image}

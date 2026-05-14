@@ -6,7 +6,6 @@ import PortfolioIntro from "./PortfolioIntro";
 import PortfolioGrid from "./PortfolioGrid";
 import FeaturedProject from "./FeaturedProject";
 import BeforeAfter from "./BeforeAfter";
-import PortfolioTestimonials from "./PortfolioTestimonials";
 import CTA from "@/components/CTA";
 import Reveal from "@/components/Reveal";
 import {
@@ -25,7 +24,7 @@ export default function PortfolioContent() {
       activeCategory === "All"
         ? portfolioProjects
         : portfolioProjects.filter((p) => p.category === activeCategory),
-    [activeCategory]
+    [activeCategory],
   );
 
   return (
@@ -41,7 +40,7 @@ export default function PortfolioContent() {
                 <button
                   key={category}
                   onClick={() => setActiveCategory(category)}
-                   className={`px-6 py-2.5 text-sm tracking-wide transition-colors duration-300 rounded-lg ${
+                  className={`px-6 py-2.5 text-sm tracking-wide transition-colors duration-300 rounded-lg ${
                     activeCategory === category
                       ? "bg-brown text-white"
                       : "text-gray-500 hover:text-brown border border-gray-200 hover:border-brown"
@@ -60,8 +59,6 @@ export default function PortfolioContent() {
       <FeaturedProject project={featuredProject} />
 
       <BeforeAfter data={beforeAfter} />
-
-      <PortfolioTestimonials testimonials={portfolioTestimonials} />
 
       <Reveal>
         <div className="max-w-7xl mx-auto my-10 px-4 md:px-6">

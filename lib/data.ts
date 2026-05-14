@@ -4,6 +4,7 @@ export interface Project {
   category: string;
   image: string;
   description: string;
+  slug: string;
 }
 
 export interface Service {
@@ -39,7 +40,7 @@ export interface FAQ {
 export const faqs: FAQ[] = [
   {
     id: "1",
-    question: "How do I start a project with Velora?",
+    question: "How do I start a project with Veylora?",
     answer:
       "Simply reach out through our contact form or WhatsApp. We'll schedule an initial consultation to discuss your vision, budget, and timeline — no obligation.",
     icon: "FileText",
@@ -82,7 +83,7 @@ export const faqs: FAQ[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  email: "hello@velorainteriors.com",
+  email: "hello@veylora.com",
   phone: "+234 xxx xxx xxxx",
   whatsapp: "Chat with us",
   whatsappNumber: "234XXXXXXXXX",
@@ -98,6 +99,7 @@ export const projects: Project[] = [
     image:
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
     description: "A minimalist penthouse with panoramic city views.",
+    slug: "skyline-penthouse",
   },
   {
     id: "2",
@@ -106,6 +108,7 @@ export const projects: Project[] = [
     image:
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
     description: "Seaside luxury blending indoor and outdoor living.",
+    slug: "azure-coastal-villa",
   },
   {
     id: "3",
@@ -114,6 +117,7 @@ export const projects: Project[] = [
     image:
       "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
     description: "Modern office design fostering creativity and collaboration.",
+    slug: "helios-tower",
   },
   {
     id: "4",
@@ -122,6 +126,7 @@ export const projects: Project[] = [
     image:
       "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
     description: "Boutique hotel interiors with art-deco influences.",
+    slug: "ivory-hotel",
   },
 ];
 
@@ -561,7 +566,7 @@ export const portfolioTestimonials: Testimonial[] = [
     name: "Oluwaseun Adebayo",
     role: "Homeowner, The Oak Residence",
     content:
-      "Velora transformed our family home into a sanctuary. The attention to detail — from the joinery to the lighting — is exceptional. We wake up every morning and fall in love with our space all over again.",
+      "Veylora transformed our family home into a sanctuary. The attention to detail — from the joinery to the lighting — is exceptional. We wake up every morning and fall in love with our space all over again.",
     avatar:
       "https://ui-avatars.com/api/?name=Oluwaseun+Adebayo&background=8B5E34&color=fff&size=80",
   },
@@ -570,7 +575,7 @@ export const portfolioTestimonials: Testimonial[] = [
     name: "Amara Okafor",
     role: "CEO, Helios Towers",
     content:
-      "Our office redesign by Velora didn't just look beautiful — it changed how our team works. Collaboration improved, wellbeing increased, and clients are consistently impressed.",
+      "Our office redesign by Veylora didn't just look beautiful — it changed how our team works. Collaboration improved, wellbeing increased, and clients are consistently impressed.",
     avatar:
       "https://ui-avatars.com/api/?name=Amara+Okafor&background=8B5E34&color=fff&size=80",
   },
@@ -579,7 +584,7 @@ export const portfolioTestimonials: Testimonial[] = [
     name: "Fatima Al-Rashid",
     role: "Owner, The Ivory Hotel",
     content:
-      "Velora understood our vision for a boutique experience that honours Moroccan heritage while feeling entirely contemporary. Our guests constantly compliment the interiors.",
+      "Veylora understood our vision for a boutique experience that honours Moroccan heritage while feeling entirely contemporary. Our guests constantly compliment the interiors.",
     avatar:
       "https://ui-avatars.com/api/?name=Fatima+Al-Rashid&background=8B5E34&color=fff&size=80",
   },

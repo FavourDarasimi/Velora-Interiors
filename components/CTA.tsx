@@ -41,7 +41,7 @@ export default function CTA() {
           consultation with our design team.
         </p>
         <Link
-          href="/contact"
+          href="/consultation"
           className="inline-block text-nowrap px-6 md:px-10 py-4 bg-brown text-white text-sm tracking-[0.15em] uppercase hover:bg-brown/90 transition-colors rounded-lg"
         >
           Book Your Consultation

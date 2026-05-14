@@ -55,7 +55,7 @@ export default function Navbar() {
               );
             })}
             <Link
-              href="/contact"
+              href="/consultation"
               className="px-6 py-2.5 bg-brown text-white text-sm tracking-wide hover:bg-brown/90 transition-colors rounded-lg"
             >
               Book Consultation
@@ -114,7 +114,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="/consultation"
                 className="block px-6 py-3 bg-brown text-white text-sm tracking-wide text-center hover:bg-brown/90 transition-colors rounded-lg"
                 onClick={() => setIsOpen(false)}
               >
